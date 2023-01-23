@@ -121,6 +121,11 @@ nav input[type="text"] {
   text-decoration-line: none;
 }
 
+.box a:hover {
+  transform: scale(1.03);
+  color: yellow;
+}
+
 .box:hover {
   background-color: rgb(62, 62, 62);
   color: rgb(255, 255, 255);
@@ -168,6 +173,11 @@ nav input[type="text"] {
   text-decoration-line: none;
 }
 
+.box-left a:hover{
+  color: yellow;
+  transform: scale(1.05);
+}
+
 .box-left:hover {
   background-color: rgb(62, 62, 62);
   color: rgb(255, 255, 255);
@@ -213,6 +223,11 @@ nav input[type="text"] {
   text-align: center;
   margin: 20px 50px;
   text-decoration-line: none;
+}
+
+.box-right a:hover{
+  color: yellow;
+  transform: scale(1.05);
 }
 
 .box-right:hover {
