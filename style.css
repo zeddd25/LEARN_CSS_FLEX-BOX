@@ -1,0 +1,241 @@
+/* reset padding margin */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* reset padding margin */
+
+/* body */
+body {
+  background: black;
+}
+/* body */
+
+/* NAVBAR */
+nav {
+  overflow: hidden;
+  background: black;
+  line-height: 18px;
+}
+
+nav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  width: 150px;
+}
+
+nav a:hover {
+  background: #ddd;
+  color: #000;
+}
+
+nav .active {
+  background: #601b75;
+}
+
+nav input[type="text"] {
+  float: right;
+  padding: 4px;
+  border: none;
+  margin-top: 16px;
+  margin-right: 100px;
+  font-size: 17px;
+  border-radius: 10px;
+  outline: none;
+}
+/* NAVBAR END */
+
+/* MAIN */
+
+/* CONTAINER */
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+/* CONTAINER END */
+
+/* BOX CENTER */
+.box {
+  background: white;
+  width: 270px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.box-image {
+  height: 270px;
+  margin-bottom: 15px;
+  border-radius: 15px 15px 0 0;
+}
+
+.film-1 {
+  background: url("img/posterfilm1.jpg");
+  background-size: cover;
+}
+
+.film-2 {
+  background: url("img/posterfilm2.jpg");
+  background-size: cover;
+}
+
+.film-3 {
+  background: url("img/posterfilm3.jpg ");
+  background-size: cover;
+}
+
+.film-4 {
+  background: url("img/posterfilm4.jpeg");
+  background-size: cover;
+}
+
+.film-5 {
+  background: url("img/posterfilm5.jpeg");
+  background-size: cover;
+}
+
+.box h2 {
+  padding: 10px;
+}
+
+.box p {
+  padding: 10px;
+}
+
+.box a {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration-line: none;
+}
+
+.box:hover {
+  background-color: rgb(62, 62, 62);
+  color: rgb(255, 255, 255);
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+/* BOX CENTER END */
+
+/* BOX BOTTOM-LEFT */
+.box-left {
+  background-color: white;
+  width: 700px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.box-image1 {
+  height: 400px;
+  margin-bottom: 15px;
+  border-radius: 15px 15px 0 0;
+  background-color: aqua;
+}
+
+.film-6 {
+  background: url("https://assets.promediateknologi.com/crop/0x0:0x0/750x500/photo/2022/11/07/1694569503.jpg");
+  background-size: cover;
+}
+
+.box-left h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.box-left p {
+  padding: 10px;
+}
+
+.box-left a {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration-line: none;
+}
+
+.box-left:hover {
+  background-color: rgb(62, 62, 62);
+  color: rgb(255, 255, 255);
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+/* BOX BOTTOM-LEFT END */
+
+/* BOX BOTTOM-RIGHT */
+.box-right {
+  background-color: white;
+  width: 700px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.box-image2 {
+  height: 400px;
+  margin-bottom: 15px;
+  border-radius: 15px 15px 0 0;
+  background-color: aqua;
+}
+
+.film-7 {
+  background: url("https://www.imago-images.de/bild/st/0094716203/s.jpg");
+  background-size: cover;
+}
+
+.box-right h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.box-right p {
+  padding: 10px;
+}
+
+.box-right a {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration-line: none;
+}
+
+.box-right:hover {
+  background-color: rgb(62, 62, 62);
+  color: rgb(255, 255, 255);
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+/* BOX BOTTOM-RIGHT END*/
+
+/* MAIN END */
+
+/* FOOTER */
+.footer {
+  background-color: #601b75;
+  padding: 25px 25px;
+  text-align: center;
+}
+
+.footer h1 {
+  display: inline;
+  text-decoration: double;
+  padding: 20px;
+  color: aqua;
+}
+/* FOOTER END */
